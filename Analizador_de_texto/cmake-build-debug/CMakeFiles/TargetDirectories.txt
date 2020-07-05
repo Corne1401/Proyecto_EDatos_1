@@ -1,0 +1,3 @@
+/home/daniel/github/Datos/Projects/Proyecto_EDatos_1/Analizador_de_texto/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/daniel/github/Datos/Projects/Proyecto_EDatos_1/Analizador_de_texto/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/daniel/github/Datos/Projects/Proyecto_EDatos_1/Analizador_de_texto/cmake-build-debug/CMakeFiles/Analizador_de_texto.dir
