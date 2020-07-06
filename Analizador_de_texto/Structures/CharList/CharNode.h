@@ -8,12 +8,12 @@
 
 class CharNode {
 public:
-    char character;
+    unsigned int character;
     CharNode *next;
     CharNode *last;
     int counter;
 public:
-    explicit CharNode(char character);
+    explicit CharNode(unsigned int character);
 };
 
 

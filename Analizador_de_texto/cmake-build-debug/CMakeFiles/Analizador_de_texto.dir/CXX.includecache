@@ -11,6 +11,8 @@ iostream
 -
 
 /home/daniel/github/Datos/Projects/Proyecto_EDatos_1/Analizador_de_texto/Structures/CharList/CharList.h
+istream
+-
 CharNode.h
 /home/daniel/github/Datos/Projects/Proyecto_EDatos_1/Analizador_de_texto/Structures/CharList/CharNode.h
 
