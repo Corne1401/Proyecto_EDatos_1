@@ -6,7 +6,9 @@
 #define ANALIZADOR_DE_TEXTO_STRINGUTILS_H
 
 #include <iostream>
-#include <vector>
+#include <list>
+#include "Delimiters.h"
+
 using namespace std;
 
 string ToUpperString(const string& str){
@@ -48,20 +50,24 @@ string SmartCapitalization(const string& str){
     return returnString;
 }
 
-vector<string> StringCutter(string str){
-    vector<string> returnVec;
+// Recibe una lista de delimitadores y un string, luego lee cada carcter del string y revisa si es
+// igual a un delimitador, si son diferentes agrega el caracer a holder para al final agregar la palabra entera
+// a la returnLiss y devolver la lista de pablabras
+list<string> StringCutter(const list<char>& delimiters, const string& str){
+    list<string> returnList;
     string holder;
     for (char c : str){
-        if(c != ' '){
+        if(!findDelimiter(c, delimiters)){
             holder += c;
         }
         else{
-            returnVec.push_back(holder);
+            returnList.push_back(holder);
             holder = "";
         }
     }
-    returnVec.push_back(holder);
-    return returnVec;
+    returnList.push_back(holder);
+    returnList.remove("");
+    return returnList;
 }
 
 
