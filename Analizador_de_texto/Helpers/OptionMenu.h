@@ -82,7 +82,7 @@ void MostarMenu(){
                 pause();
                 break;
         }
-    }while(bandera!=true);
+    }while(!bandera);
 }
 
 void pause()
