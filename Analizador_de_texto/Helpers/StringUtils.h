@@ -6,6 +6,7 @@
 #define ANALIZADOR_DE_TEXTO_STRINGUTILS_H
 
 #include <iostream>
+#include <vector>
 using namespace std;
 
 string ToUpperString(const string& str){
@@ -45,6 +46,22 @@ string SmartCapitalization(const string& str){
         returnString += str[i];
     }
     return returnString;
+}
+
+vector<string> StringCutter(string str){
+    vector<string> returnVec;
+    string holder;
+    for (char c : str){
+        if(c != ' '){
+            holder += c;
+        }
+        else{
+            returnVec.push_back(holder);
+            holder = "";
+        }
+    }
+    returnVec.push_back(holder);
+    return returnVec;
 }
 
 
