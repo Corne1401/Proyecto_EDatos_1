@@ -1,5 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/Daniel" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated />
   </component>
@@ -9,7 +34,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dfaa8b2d-55a3-4d3f-a275-72028defc367" name="Default Changelist" comment="" />
+    <list default="true" id="dfaa8b2d-55a3-4d3f-a275-72028defc367" name="Default Changelist" comment="Menú de opciones&#10;&#10;Opciónes definidas 0">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analizador_de_texto/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Analizador_de_texto/main.cpp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,7 +47,13 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1eEuTCqYQgUMzlMptFzQY75kQvX" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -32,7 +66,15 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -44,16 +86,87 @@
       <option name="presentableId" value="Default" />
       <updated>1593899078364</updated>
       <workItem from="1593899081126" duration="80000" />
+      <workItem from="1594065705880" duration="11216000" />
+      <workItem from="1594092753914" duration="5361000" />
     </task>
+    <task id="LOCAL-00001" summary="Menú de opciones&#10;&#10;Opciónes definidas 0">
+      <created>1594089685757</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1594089685757</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Menú de opciones&#10;&#10;Opciónes definidas 0">
+      <created>1594093748224</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1594093748225</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/Daniel" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Menú de opciones&#10;&#10;Opciónes Definidas  0" />
+    <MESSAGE value="Menú de opciones&#10;&#10;Opciónes definidas 0" />
+    <option name="LAST_COMMIT_MESSAGE" value="Menú de opciones&#10;&#10;Opciónes definidas 0" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="771" y="296" width="424" height="513" key="FileChooserDialogImpl" timestamp="1593899161951">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state x="177" y="55" width="1084" height="710" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594086566756">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="177" y="55" width="1084" height="710" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1594086566756" />
+    <state x="564" y="216" width="379" height="368" key="FileChooserDialogImpl" timestamp="1594089404900">
+      <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="771" y="296" width="424" height="513" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1593899161951" />
+    <state x="564" y="216" width="379" height="368" key="FileChooserDialogImpl/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1594089404900" />
+    <state x="192" y="90" width="1035" height="629" key="MergeDialog" timestamp="1594093843390">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="192" y="90" width="1035" height="629" key="MergeDialog/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1594093843390" />
+    <state x="350" y="160" width="728" height="482" key="MultipleFileMergeDialog" timestamp="1594093843393">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="350" y="160" width="728" height="482" key="MultipleFileMergeDialog/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1594093843393" />
+    <state x="314" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1594093790444">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="314" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1594093790444" />
+    <state x="500" y="312" width="438" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594164194149">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="500" y="312" width="438" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1594164194149" />
+    <state x="391" y="91" width="645" height="619" key="git4idea.branch.GitSmartOperationDialog" timestamp="1594168357394">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="391" y="91" width="645" height="619" key="git4idea.branch.GitSmartOperationDialog/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1594168357394" />
   </component>
 </project>

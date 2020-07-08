@@ -1,7 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include "Helpers/StringUtils.h"
-#include "Structures/CharList/CharList.h"
+#include "Structur es/CharList/CharList.h"
 using namespace std;
 
 int main() {
