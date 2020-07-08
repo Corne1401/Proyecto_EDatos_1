@@ -1,17 +1,23 @@
 #include <iostream>
 #include <fstream>
+#include <list>
 #include "Helpers/StringUtils.h"
 #include "Structur es/CharList/CharList.h"
 using namespace std;
 
 int main() {
-    string s = "Este es el primer proyecto de estructuras de datos del primer semestre del dos mil veintiuno";
-    CharList charList;
-    for(char c : s){
-        charList.insert(c);
-    }
+    // Lista de delimitadores: hay que inicializarla en el main para poder utilizarla en el resto del programa
+    list<char> delimiters = {' ', '.', ',', '!', '?', '\n'};
 
-    charList.print();
+
+
+    // Prueba para los delimitadores
+    list<string> prueba = StringCutter(delimiters,"Hola. los! delimitadores? ya funcionan,");
+
+
+    for(const string& s : prueba){
+        cout << s << endl;
+    }
 
     return 0;
 }

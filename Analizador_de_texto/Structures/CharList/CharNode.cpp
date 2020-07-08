@@ -4,7 +4,7 @@
 
 #include "CharNode.h"
 
-CharNode::CharNode(char character) {
+CharNode::CharNode(unsigned int character) {
     this->character = character;
     this->next = nullptr;
     this->last = nullptr;

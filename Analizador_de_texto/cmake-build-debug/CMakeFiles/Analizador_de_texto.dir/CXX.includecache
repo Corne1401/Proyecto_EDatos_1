@@ -6,11 +6,23 @@
 
 #IncludeRegexTransform: 
 
+/home/daniel/github/Datos/Projects/Proyecto_EDatos_1/Analizador_de_texto/Helpers/Delimiters.h
+iostream
+-
+list
+-
+
 /home/daniel/github/Datos/Projects/Proyecto_EDatos_1/Analizador_de_texto/Helpers/StringUtils.h
 iostream
 -
+list
+-
+Delimiters.h
+/home/daniel/github/Datos/Projects/Proyecto_EDatos_1/Analizador_de_texto/Helpers/Delimiters.h
 
 /home/daniel/github/Datos/Projects/Proyecto_EDatos_1/Analizador_de_texto/Structures/CharList/CharList.h
+istream
+-
 CharNode.h
 /home/daniel/github/Datos/Projects/Proyecto_EDatos_1/Analizador_de_texto/Structures/CharList/CharNode.h
 
@@ -20,6 +32,8 @@ CharNode.h
 iostream
 -
 fstream
+-
+list
 -
 Helpers/StringUtils.h
 /home/daniel/github/Datos/Projects/Proyecto_EDatos_1/Analizador_de_texto/Helpers/StringUtils.h
