@@ -15,7 +15,6 @@ Trie::Trie() {
 
 //Insertar una palabra en el trie
 void Trie::insert(string word) {
-    cout<<"Funcion insert";
     Trie *curr = this;
     for (char c : word) {
         if (!(curr->children[c - 'a'])) {
@@ -27,7 +26,6 @@ void Trie::insert(string word) {
 }
 
 bool Trie::search(string word){
-    cout<<"Funcion search";
     Trie* curr = this;
     for (char c : word) {
         curr = curr->children[c - 'a'];
@@ -43,7 +41,6 @@ bool Trie::search(string word){
 
 //Devuelve si hay alguna palabra en el trie comienza con el prefijo dado
 bool Trie::startsWith(string prefix){
-    cout<<"Funcion startsWith";
     Trie* curr = this;
     for( char c : prefix){
         curr = curr->children[c - 'a'];

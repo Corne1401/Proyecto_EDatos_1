@@ -2,7 +2,8 @@
 #include <fstream>
 #include <list>
 #include "Helpers/StringUtils.h"
-#include "Structur es/CharList/CharList.h"
+#include "Structures/CharList/CharList.h"
+#include "Structures/Trie/Trie.h"
 using namespace std;
 
 int main() {
