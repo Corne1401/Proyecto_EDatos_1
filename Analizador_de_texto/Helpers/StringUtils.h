@@ -51,7 +51,7 @@ string SmartCapitalization(const string& str){
 }
 
 // Recibe una lista de delimitadores y un string, luego lee cada carcter del string y revisa si es
-// igual a un delimitador, si son diferentes agrega el caracer a holder para al final agregar la palabra entera
+// igual a un delimitador, si son diferentes agrega el caracter a holder para al final agregar la palabra entera
 // a la returnLiss y devolver la lista de pablabras
 list<string> StringCutter(const list<char>& delimiters, const string& str){
     list<string> returnList;
