@@ -13,13 +13,12 @@ class CharList {
 public:
     CharNode *first;
     CharNode *last;
-    static int charTotal;
+    int charTotal;
 public:
     CharList();
-    void insert(char character);
-    void insert(const u32string& str);
+    void insert(const string& character);
     bool search(char character);
-    bool incrementSearch(unsigned int character) const;
+    bool incrementSearch(const string& character) const;
     void print() const;
 };
 
