@@ -13,7 +13,7 @@ public:
     string character;
     CharNode *next;
     CharNode *last;
-    int counter;
+    float counter;
 public:
     explicit CharNode(string character);
 };

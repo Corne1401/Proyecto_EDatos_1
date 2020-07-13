@@ -11,6 +11,7 @@
 
 using namespace std;
 
+// Procesa una string y la devuelve en mayusculas
 string ToUpperString(const string& str){
     string returnString;
     for (auto c : str){
@@ -19,6 +20,7 @@ string ToUpperString(const string& str){
     return returnString;
 }
 
+// Procesa una string y la devuelve en mayusculas minusculas
 string ToLowerString(const string& str){
     string returnString;
     for(auto c : str){
@@ -27,6 +29,7 @@ string ToLowerString(const string& str){
     return returnString;
 }
 
+// Procesa una string y la devuelve con mayusculas despues de un punto o salto de linea
 string SmartCapitalization(const string& str){
     string returnString;
     char buffer = '\0';

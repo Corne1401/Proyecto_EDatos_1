@@ -9,6 +9,7 @@
 #include <list>
 using namespace std;
 
+//Funcion que encuentra delimitadores en una lista
 bool findDelimiter(char delimiter, const list<char>& delimiters){
     for(char c : delimiters){
         if(c == delimiter) return true;

@@ -90,6 +90,9 @@
 		<Unit filename="/home/daniel/github/Datos/Projects/Proyecto_EDatos_1/Analizador_de_texto/Helpers/OptionMenu.h">
 			<Option target="Analizador_de_texto"/>
 		</Unit>
+		<Unit filename="/home/daniel/github/Datos/Projects/Proyecto_EDatos_1/Analizador_de_texto/Helpers/Round.h">
+			<Option target="Analizador_de_texto"/>
+		</Unit>
 		<Unit filename="/home/daniel/github/Datos/Projects/Proyecto_EDatos_1/Analizador_de_texto/Helpers/StringUtils.h">
 			<Option target="Analizador_de_texto"/>
 		</Unit>
