@@ -6,12 +6,13 @@
 #define PROYECTO_EDATOS_1_OPTIONMENU_H
 
 #include <iostream>
+#include "../Structures/CharList/CharList.h"
 using namespace std;
 
 
 void pause();
 
-void MostarMenu(){
+void MostarMenu(CharList &charList){
     bool bandera=false;
     char tecla;
 
@@ -37,7 +38,8 @@ void MostarMenu(){
         {
             case 'a':
                 system("cls");
-                cout << "Has elejido ...\n";     //brindará el Histograma de la parte A
+                cout << "Histograma\n";
+                charList.graph();
                 pause();
                 break;
 

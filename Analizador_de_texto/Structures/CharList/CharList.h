@@ -5,7 +5,7 @@
 #ifndef ANALIZADOR_DE_TEXTO_CHARLIST_H
 #define ANALIZADOR_DE_TEXTO_CHARLIST_H
 
-#include <istream>
+#include <iostream>
 #include "CharNode.h"
 using namespace std;
 
@@ -13,13 +13,16 @@ class CharList {
 public:
     CharNode *first;
     CharNode *last;
-    int charTotal;
+    float charTotal;
 public:
     CharList();
     void insert(const string& character);
-    bool search(char character);
     bool incrementSearch(const string& character) const;
+    void graph() const;
     void print() const;
+    static void swap (CharNode *a, CharNode *b);
+    static void bubbleSort(CharNode *start);
+
 };
 
 
