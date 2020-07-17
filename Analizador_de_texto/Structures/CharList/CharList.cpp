@@ -27,7 +27,7 @@ void CharList::insert(const string& str) {
 
         holder.push_back(character);
         if(character > 0 || holder.length() == 2){
-
+          
             switch(character){
                 case '\n':
                     holder = "'Enter'";

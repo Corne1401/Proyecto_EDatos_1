@@ -17,6 +17,9 @@ int main() {
     //<Lista enlazada de caracteres (Punto A)>//
     CharList charList;
 
+
+    int comparaciones = 0;
+
     //MENU//
     char opcion;
     cout << "a. Leer archivo" << endl;
@@ -99,6 +102,8 @@ int main() {
 
 
     // Pruebas //
+
+
 
     return 0;
 }
