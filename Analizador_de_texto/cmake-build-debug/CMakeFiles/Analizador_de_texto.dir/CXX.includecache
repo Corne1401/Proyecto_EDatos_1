@@ -12,47 +12,23 @@ iostream
 list
 -
 
-/home/daniel/github/Datos/Projects/Proyecto_EDatos_1/Analizador_de_texto/Helpers/OptionMenu.h
-iostream
--
-../Structures/CharList/CharList.h
-/home/daniel/github/Datos/Projects/Proyecto_EDatos_1/Analizador_de_texto/Structures/CharList/CharList.h
+/home/daniel/github/Datos/Projects/Proyecto_EDatos_1/Analizador_de_texto/Structures/WordList/PositionNode.h
 
-/home/daniel/github/Datos/Projects/Proyecto_EDatos_1/Analizador_de_texto/Helpers/StringUtils.h
-iostream
--
-list
--
-Delimiters.h
+/home/daniel/github/Datos/Projects/Proyecto_EDatos_1/Analizador_de_texto/Structures/WordList/WordList.cpp
+WordList.h
+/home/daniel/github/Datos/Projects/Proyecto_EDatos_1/Analizador_de_texto/Structures/WordList/WordList.h
+../../Helpers/Delimiters.h
 /home/daniel/github/Datos/Projects/Proyecto_EDatos_1/Analizador_de_texto/Helpers/Delimiters.h
 
-/home/daniel/github/Datos/Projects/Proyecto_EDatos_1/Analizador_de_texto/Structures/CharList/CharList.h
-iostream
+/home/daniel/github/Datos/Projects/Proyecto_EDatos_1/Analizador_de_texto/Structures/WordList/WordList.h
+list
 -
-CharNode.h
-/home/daniel/github/Datos/Projects/Proyecto_EDatos_1/Analizador_de_texto/Structures/CharList/CharNode.h
+WordNode.h
+/home/daniel/github/Datos/Projects/Proyecto_EDatos_1/Analizador_de_texto/Structures/WordList/WordNode.h
 
-/home/daniel/github/Datos/Projects/Proyecto_EDatos_1/Analizador_de_texto/Structures/CharList/CharNode.h
+/home/daniel/github/Datos/Projects/Proyecto_EDatos_1/Analizador_de_texto/Structures/WordList/WordNode.h
 iostream
 -
-
-/home/daniel/github/Datos/Projects/Proyecto_EDatos_1/Analizador_de_texto/Structures/Trie/Trie.h
-iostream
--
-string
--
-
-/home/daniel/github/Datos/Projects/Proyecto_EDatos_1/Analizador_de_texto/main.cpp
-iostream
--
-fstream
--
-Helpers/StringUtils.h
-/home/daniel/github/Datos/Projects/Proyecto_EDatos_1/Analizador_de_texto/Helpers/StringUtils.h
-Helpers/OptionMenu.h
-/home/daniel/github/Datos/Projects/Proyecto_EDatos_1/Analizador_de_texto/Helpers/OptionMenu.h
-Structures/CharList/CharList.h
-/home/daniel/github/Datos/Projects/Proyecto_EDatos_1/Analizador_de_texto/Structures/CharList/CharList.h
-Structures/Trie/Trie.h
-/home/daniel/github/Datos/Projects/Proyecto_EDatos_1/Analizador_de_texto/Structures/Trie/Trie.h
+PositionNode.h
+/home/daniel/github/Datos/Projects/Proyecto_EDatos_1/Analizador_de_texto/Structures/WordList/PositionNode.h
 

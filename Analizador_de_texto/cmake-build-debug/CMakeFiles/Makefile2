@@ -74,12 +74,12 @@ clean: CMakeFiles/Analizador_de_texto.dir/clean
 CMakeFiles/Analizador_de_texto.dir/all:
 	$(MAKE) -f CMakeFiles/Analizador_de_texto.dir/build.make CMakeFiles/Analizador_de_texto.dir/depend
 	$(MAKE) -f CMakeFiles/Analizador_de_texto.dir/build.make CMakeFiles/Analizador_de_texto.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/daniel/github/Datos/Projects/Proyecto_EDatos_1/Analizador_de_texto/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4 "Built target Analizador_de_texto"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/daniel/github/Datos/Projects/Proyecto_EDatos_1/Analizador_de_texto/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target Analizador_de_texto"
 .PHONY : CMakeFiles/Analizador_de_texto.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Analizador_de_texto.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/daniel/github/Datos/Projects/Proyecto_EDatos_1/Analizador_de_texto/cmake-build-debug/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/daniel/github/Datos/Projects/Proyecto_EDatos_1/Analizador_de_texto/cmake-build-debug/CMakeFiles 7
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Analizador_de_texto.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/daniel/github/Datos/Projects/Proyecto_EDatos_1/Analizador_de_texto/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/Analizador_de_texto.dir/rule

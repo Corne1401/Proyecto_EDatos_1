@@ -6,6 +6,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/daniel/github/Datos/Projects/Proyecto_EDatos_1/Analizador_de_texto/Structures/CharList/CharList.cpp" "/home/daniel/github/Datos/Projects/Proyecto_EDatos_1/Analizador_de_texto/cmake-build-debug/CMakeFiles/Analizador_de_texto.dir/Structures/CharList/CharList.cpp.o"
   "/home/daniel/github/Datos/Projects/Proyecto_EDatos_1/Analizador_de_texto/Structures/CharList/CharNode.cpp" "/home/daniel/github/Datos/Projects/Proyecto_EDatos_1/Analizador_de_texto/cmake-build-debug/CMakeFiles/Analizador_de_texto.dir/Structures/CharList/CharNode.cpp.o"
+  "/home/daniel/github/Datos/Projects/Proyecto_EDatos_1/Analizador_de_texto/Structures/WordList/PositionNode.cpp" "/home/daniel/github/Datos/Projects/Proyecto_EDatos_1/Analizador_de_texto/cmake-build-debug/CMakeFiles/Analizador_de_texto.dir/Structures/WordList/PositionNode.cpp.o"
+  "/home/daniel/github/Datos/Projects/Proyecto_EDatos_1/Analizador_de_texto/Structures/WordList/WordList.cpp" "/home/daniel/github/Datos/Projects/Proyecto_EDatos_1/Analizador_de_texto/cmake-build-debug/CMakeFiles/Analizador_de_texto.dir/Structures/WordList/WordList.cpp.o"
+  "/home/daniel/github/Datos/Projects/Proyecto_EDatos_1/Analizador_de_texto/Structures/WordList/WordNode.cpp" "/home/daniel/github/Datos/Projects/Proyecto_EDatos_1/Analizador_de_texto/cmake-build-debug/CMakeFiles/Analizador_de_texto.dir/Structures/WordList/WordNode.cpp.o"
   "/home/daniel/github/Datos/Projects/Proyecto_EDatos_1/Analizador_de_texto/main.cpp" "/home/daniel/github/Datos/Projects/Proyecto_EDatos_1/Analizador_de_texto/cmake-build-debug/CMakeFiles/Analizador_de_texto.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

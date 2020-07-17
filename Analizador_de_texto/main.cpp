@@ -1,9 +1,9 @@
 #include <iostream>
 #include <fstream>
-#include "Helpers/StringUtils.h"
 #include "Helpers/OptionMenu.h"
+#include "Helpers/StringUtils.h"
 #include "Structures/CharList/CharList.h"
-#include "Structures/Lista/DoublyList.h"
+#include "Structures/WordList/WordList.h"
 using namespace std;
 
 
@@ -14,8 +14,12 @@ int main() {
 
     //ESTRUCTURAS//
 
-    //<Lista enlazada de caracteres (Punto A)>//
+    //<WordList enlazada de caracteres (Punto A)>//
     CharList charList;
+    WordList wordList;
+
+    //DELIMITERS//
+    list<string> delimiters = {" ", ".", ",", "?", "!", "\n"};
 
 
     int comparaciones = 0;
@@ -44,23 +48,28 @@ int main() {
             cin >> capitalization;
 
             if(tolower(capitalization) == 'y'){
+                int lineNum = 1;
                 while(getline(processFile,line)){
                     //Se agrega el salto de linea porque getline() lo elimina
                     line += "\n";
 
                     // Se procesan las lineas del archivo para meterlas en las estrucuras
                     charList.insert(line);
+                    wordList.insert(line, delimiters, lineNum);
+                    lineNum++;
 
                 }
             }
             else if(tolower(capitalization) == 'n'){
+                int lineNum = 1;
                 while(getline(processFile,line)){
                     //Se agrega el salto de linea porque getline() lo elimina
                     line += "\n";
 
                     // Se procesan las lineas del archivo para meterlas en las estrucuras
                     charList.insert(ToLowerString(line));
-
+                    wordList.insert(line, delimiters, lineNum);
+                    lineNum++;
                 }
             }
             else cout << "Opcion no valida" << endl;
@@ -97,11 +106,16 @@ int main() {
     }
     else cout << "opcion no valida" << endl;
 
-    MostarMenu(charList);
+    MostarMenu(charList, wordList);
 
 
 
     // Pruebas //
+//    string prueba = "Hola. mi nombre és daniel? corne es mi referencia";
+//
+//
+//    wordList.insert(prueba, delimiters, 1);
+//    wordList.printPos();
 
 
 

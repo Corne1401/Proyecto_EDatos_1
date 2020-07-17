@@ -2,10 +2,8 @@
 // Created by daniel on 4/7/20.
 //
 
-#include <iostream>
 #include "../../Helpers/Round.h"
 #include "CharList.h"
-
 using namespace std;
 
 // Constructor de la lista de caracteres

@@ -9,11 +9,25 @@ CMakeFiles/Analizador_de_texto.dir/Structures/CharList/CharList.cpp.o: ../Struct
 CMakeFiles/Analizador_de_texto.dir/Structures/CharList/CharNode.cpp.o: ../Structures/CharList/CharNode.cpp
 CMakeFiles/Analizador_de_texto.dir/Structures/CharList/CharNode.cpp.o: ../Structures/CharList/CharNode.h
 
-CMakeFiles/Analizador_de_texto.dir/main.cpp.o: ../Helpers/Delimiters.h
+CMakeFiles/Analizador_de_texto.dir/Structures/WordList/PositionNode.cpp.o: ../Structures/WordList/PositionNode.cpp
+CMakeFiles/Analizador_de_texto.dir/Structures/WordList/PositionNode.cpp.o: ../Structures/WordList/PositionNode.h
+
+CMakeFiles/Analizador_de_texto.dir/Structures/WordList/WordList.cpp.o: ../Helpers/Delimiters.h
+CMakeFiles/Analizador_de_texto.dir/Structures/WordList/WordList.cpp.o: ../Structures/WordList/PositionNode.h
+CMakeFiles/Analizador_de_texto.dir/Structures/WordList/WordList.cpp.o: ../Structures/WordList/WordList.cpp
+CMakeFiles/Analizador_de_texto.dir/Structures/WordList/WordList.cpp.o: ../Structures/WordList/WordList.h
+CMakeFiles/Analizador_de_texto.dir/Structures/WordList/WordList.cpp.o: ../Structures/WordList/WordNode.h
+
+CMakeFiles/Analizador_de_texto.dir/Structures/WordList/WordNode.cpp.o: ../Structures/WordList/PositionNode.h
+CMakeFiles/Analizador_de_texto.dir/Structures/WordList/WordNode.cpp.o: ../Structures/WordList/WordNode.cpp
+CMakeFiles/Analizador_de_texto.dir/Structures/WordList/WordNode.cpp.o: ../Structures/WordList/WordNode.h
+
 CMakeFiles/Analizador_de_texto.dir/main.cpp.o: ../Helpers/OptionMenu.h
 CMakeFiles/Analizador_de_texto.dir/main.cpp.o: ../Helpers/StringUtils.h
 CMakeFiles/Analizador_de_texto.dir/main.cpp.o: ../Structures/CharList/CharList.h
 CMakeFiles/Analizador_de_texto.dir/main.cpp.o: ../Structures/CharList/CharNode.h
-CMakeFiles/Analizador_de_texto.dir/main.cpp.o: ../Structures/Trie/Trie.h
+CMakeFiles/Analizador_de_texto.dir/main.cpp.o: ../Structures/WordList/PositionNode.h
+CMakeFiles/Analizador_de_texto.dir/main.cpp.o: ../Structures/WordList/WordList.h
+CMakeFiles/Analizador_de_texto.dir/main.cpp.o: ../Structures/WordList/WordNode.h
 CMakeFiles/Analizador_de_texto.dir/main.cpp.o: ../main.cpp
 

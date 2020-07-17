@@ -177,6 +177,87 @@ Structures/CharList/CharNode.cpp.s:
 	$(MAKE) -f CMakeFiles/Analizador_de_texto.dir/build.make CMakeFiles/Analizador_de_texto.dir/Structures/CharList/CharNode.cpp.s
 .PHONY : Structures/CharList/CharNode.cpp.s
 
+Structures/WordList/PositionNode.o: Structures/WordList/PositionNode.cpp.o
+
+.PHONY : Structures/WordList/PositionNode.o
+
+# target to build an object file
+Structures/WordList/PositionNode.cpp.o:
+	$(MAKE) -f CMakeFiles/Analizador_de_texto.dir/build.make CMakeFiles/Analizador_de_texto.dir/Structures/WordList/PositionNode.cpp.o
+.PHONY : Structures/WordList/PositionNode.cpp.o
+
+Structures/WordList/PositionNode.i: Structures/WordList/PositionNode.cpp.i
+
+.PHONY : Structures/WordList/PositionNode.i
+
+# target to preprocess a source file
+Structures/WordList/PositionNode.cpp.i:
+	$(MAKE) -f CMakeFiles/Analizador_de_texto.dir/build.make CMakeFiles/Analizador_de_texto.dir/Structures/WordList/PositionNode.cpp.i
+.PHONY : Structures/WordList/PositionNode.cpp.i
+
+Structures/WordList/PositionNode.s: Structures/WordList/PositionNode.cpp.s
+
+.PHONY : Structures/WordList/PositionNode.s
+
+# target to generate assembly for a file
+Structures/WordList/PositionNode.cpp.s:
+	$(MAKE) -f CMakeFiles/Analizador_de_texto.dir/build.make CMakeFiles/Analizador_de_texto.dir/Structures/WordList/PositionNode.cpp.s
+.PHONY : Structures/WordList/PositionNode.cpp.s
+
+Structures/WordList/WordList.o: Structures/WordList/WordList.cpp.o
+
+.PHONY : Structures/WordList/WordList.o
+
+# target to build an object file
+Structures/WordList/WordList.cpp.o:
+	$(MAKE) -f CMakeFiles/Analizador_de_texto.dir/build.make CMakeFiles/Analizador_de_texto.dir/Structures/WordList/WordList.cpp.o
+.PHONY : Structures/WordList/WordList.cpp.o
+
+Structures/WordList/WordList.i: Structures/WordList/WordList.cpp.i
+
+.PHONY : Structures/WordList/WordList.i
+
+# target to preprocess a source file
+Structures/WordList/WordList.cpp.i:
+	$(MAKE) -f CMakeFiles/Analizador_de_texto.dir/build.make CMakeFiles/Analizador_de_texto.dir/Structures/WordList/WordList.cpp.i
+.PHONY : Structures/WordList/WordList.cpp.i
+
+Structures/WordList/WordList.s: Structures/WordList/WordList.cpp.s
+
+.PHONY : Structures/WordList/WordList.s
+
+# target to generate assembly for a file
+Structures/WordList/WordList.cpp.s:
+	$(MAKE) -f CMakeFiles/Analizador_de_texto.dir/build.make CMakeFiles/Analizador_de_texto.dir/Structures/WordList/WordList.cpp.s
+.PHONY : Structures/WordList/WordList.cpp.s
+
+Structures/WordList/WordNode.o: Structures/WordList/WordNode.cpp.o
+
+.PHONY : Structures/WordList/WordNode.o
+
+# target to build an object file
+Structures/WordList/WordNode.cpp.o:
+	$(MAKE) -f CMakeFiles/Analizador_de_texto.dir/build.make CMakeFiles/Analizador_de_texto.dir/Structures/WordList/WordNode.cpp.o
+.PHONY : Structures/WordList/WordNode.cpp.o
+
+Structures/WordList/WordNode.i: Structures/WordList/WordNode.cpp.i
+
+.PHONY : Structures/WordList/WordNode.i
+
+# target to preprocess a source file
+Structures/WordList/WordNode.cpp.i:
+	$(MAKE) -f CMakeFiles/Analizador_de_texto.dir/build.make CMakeFiles/Analizador_de_texto.dir/Structures/WordList/WordNode.cpp.i
+.PHONY : Structures/WordList/WordNode.cpp.i
+
+Structures/WordList/WordNode.s: Structures/WordList/WordNode.cpp.s
+
+.PHONY : Structures/WordList/WordNode.s
+
+# target to generate assembly for a file
+Structures/WordList/WordNode.cpp.s:
+	$(MAKE) -f CMakeFiles/Analizador_de_texto.dir/build.make CMakeFiles/Analizador_de_texto.dir/Structures/WordList/WordNode.cpp.s
+.PHONY : Structures/WordList/WordNode.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -219,6 +300,15 @@ help:
 	@echo "... Structures/CharList/CharNode.o"
 	@echo "... Structures/CharList/CharNode.i"
 	@echo "... Structures/CharList/CharNode.s"
+	@echo "... Structures/WordList/PositionNode.o"
+	@echo "... Structures/WordList/PositionNode.i"
+	@echo "... Structures/WordList/PositionNode.s"
+	@echo "... Structures/WordList/WordList.o"
+	@echo "... Structures/WordList/WordList.i"
+	@echo "... Structures/WordList/WordList.s"
+	@echo "... Structures/WordList/WordNode.o"
+	@echo "... Structures/WordList/WordNode.i"
+	@echo "... Structures/WordList/WordNode.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
