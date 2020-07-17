@@ -3,10 +3,12 @@
 #include "Helpers/StringUtils.h"
 #include "Helpers/OptionMenu.h"
 #include "Structures/CharList/CharList.h"
-#include "Structures/Trie/Trie.h"
+#include "Structures/Lista/DoublyList.h"
 using namespace std;
 
+
 int main() {
+
 
     //Parte final del main NO BORRAR//
 
