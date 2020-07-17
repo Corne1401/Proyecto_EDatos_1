@@ -96,11 +96,53 @@ CMakeFiles/Analizador_de_texto.dir/Structures/CharList/CharList.cpp.s: cmake_for
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Analizador_de_texto.dir/Structures/CharList/CharList.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/daniel/github/Datos/Projects/Proyecto_EDatos_1/Analizador_de_texto/Structures/CharList/CharList.cpp -o CMakeFiles/Analizador_de_texto.dir/Structures/CharList/CharList.cpp.s
 
+CMakeFiles/Analizador_de_texto.dir/Structures/WordList/WordNode.cpp.o: CMakeFiles/Analizador_de_texto.dir/flags.make
+CMakeFiles/Analizador_de_texto.dir/Structures/WordList/WordNode.cpp.o: ../Structures/WordList/WordNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daniel/github/Datos/Projects/Proyecto_EDatos_1/Analizador_de_texto/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Analizador_de_texto.dir/Structures/WordList/WordNode.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Analizador_de_texto.dir/Structures/WordList/WordNode.cpp.o -c /home/daniel/github/Datos/Projects/Proyecto_EDatos_1/Analizador_de_texto/Structures/WordList/WordNode.cpp
+
+CMakeFiles/Analizador_de_texto.dir/Structures/WordList/WordNode.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Analizador_de_texto.dir/Structures/WordList/WordNode.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/daniel/github/Datos/Projects/Proyecto_EDatos_1/Analizador_de_texto/Structures/WordList/WordNode.cpp > CMakeFiles/Analizador_de_texto.dir/Structures/WordList/WordNode.cpp.i
+
+CMakeFiles/Analizador_de_texto.dir/Structures/WordList/WordNode.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Analizador_de_texto.dir/Structures/WordList/WordNode.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/daniel/github/Datos/Projects/Proyecto_EDatos_1/Analizador_de_texto/Structures/WordList/WordNode.cpp -o CMakeFiles/Analizador_de_texto.dir/Structures/WordList/WordNode.cpp.s
+
+CMakeFiles/Analizador_de_texto.dir/Structures/WordList/WordList.cpp.o: CMakeFiles/Analizador_de_texto.dir/flags.make
+CMakeFiles/Analizador_de_texto.dir/Structures/WordList/WordList.cpp.o: ../Structures/WordList/WordList.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daniel/github/Datos/Projects/Proyecto_EDatos_1/Analizador_de_texto/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Analizador_de_texto.dir/Structures/WordList/WordList.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Analizador_de_texto.dir/Structures/WordList/WordList.cpp.o -c /home/daniel/github/Datos/Projects/Proyecto_EDatos_1/Analizador_de_texto/Structures/WordList/WordList.cpp
+
+CMakeFiles/Analizador_de_texto.dir/Structures/WordList/WordList.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Analizador_de_texto.dir/Structures/WordList/WordList.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/daniel/github/Datos/Projects/Proyecto_EDatos_1/Analizador_de_texto/Structures/WordList/WordList.cpp > CMakeFiles/Analizador_de_texto.dir/Structures/WordList/WordList.cpp.i
+
+CMakeFiles/Analizador_de_texto.dir/Structures/WordList/WordList.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Analizador_de_texto.dir/Structures/WordList/WordList.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/daniel/github/Datos/Projects/Proyecto_EDatos_1/Analizador_de_texto/Structures/WordList/WordList.cpp -o CMakeFiles/Analizador_de_texto.dir/Structures/WordList/WordList.cpp.s
+
+CMakeFiles/Analizador_de_texto.dir/Structures/WordList/PositionNode.cpp.o: CMakeFiles/Analizador_de_texto.dir/flags.make
+CMakeFiles/Analizador_de_texto.dir/Structures/WordList/PositionNode.cpp.o: ../Structures/WordList/PositionNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daniel/github/Datos/Projects/Proyecto_EDatos_1/Analizador_de_texto/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Analizador_de_texto.dir/Structures/WordList/PositionNode.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Analizador_de_texto.dir/Structures/WordList/PositionNode.cpp.o -c /home/daniel/github/Datos/Projects/Proyecto_EDatos_1/Analizador_de_texto/Structures/WordList/PositionNode.cpp
+
+CMakeFiles/Analizador_de_texto.dir/Structures/WordList/PositionNode.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Analizador_de_texto.dir/Structures/WordList/PositionNode.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/daniel/github/Datos/Projects/Proyecto_EDatos_1/Analizador_de_texto/Structures/WordList/PositionNode.cpp > CMakeFiles/Analizador_de_texto.dir/Structures/WordList/PositionNode.cpp.i
+
+CMakeFiles/Analizador_de_texto.dir/Structures/WordList/PositionNode.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Analizador_de_texto.dir/Structures/WordList/PositionNode.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/daniel/github/Datos/Projects/Proyecto_EDatos_1/Analizador_de_texto/Structures/WordList/PositionNode.cpp -o CMakeFiles/Analizador_de_texto.dir/Structures/WordList/PositionNode.cpp.s
+
 # Object files for target Analizador_de_texto
 Analizador_de_texto_OBJECTS = \
 "CMakeFiles/Analizador_de_texto.dir/main.cpp.o" \
 "CMakeFiles/Analizador_de_texto.dir/Structures/CharList/CharNode.cpp.o" \
-"CMakeFiles/Analizador_de_texto.dir/Structures/CharList/CharList.cpp.o"
+"CMakeFiles/Analizador_de_texto.dir/Structures/CharList/CharList.cpp.o" \
+"CMakeFiles/Analizador_de_texto.dir/Structures/WordList/WordNode.cpp.o" \
+"CMakeFiles/Analizador_de_texto.dir/Structures/WordList/WordList.cpp.o" \
+"CMakeFiles/Analizador_de_texto.dir/Structures/WordList/PositionNode.cpp.o"
 
 # External object files for target Analizador_de_texto
 Analizador_de_texto_EXTERNAL_OBJECTS =
@@ -108,9 +150,12 @@ Analizador_de_texto_EXTERNAL_OBJECTS =
 Analizador_de_texto: CMakeFiles/Analizador_de_texto.dir/main.cpp.o
 Analizador_de_texto: CMakeFiles/Analizador_de_texto.dir/Structures/CharList/CharNode.cpp.o
 Analizador_de_texto: CMakeFiles/Analizador_de_texto.dir/Structures/CharList/CharList.cpp.o
+Analizador_de_texto: CMakeFiles/Analizador_de_texto.dir/Structures/WordList/WordNode.cpp.o
+Analizador_de_texto: CMakeFiles/Analizador_de_texto.dir/Structures/WordList/WordList.cpp.o
+Analizador_de_texto: CMakeFiles/Analizador_de_texto.dir/Structures/WordList/PositionNode.cpp.o
 Analizador_de_texto: CMakeFiles/Analizador_de_texto.dir/build.make
 Analizador_de_texto: CMakeFiles/Analizador_de_texto.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/daniel/github/Datos/Projects/Proyecto_EDatos_1/Analizador_de_texto/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Analizador_de_texto"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/daniel/github/Datos/Projects/Proyecto_EDatos_1/Analizador_de_texto/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Analizador_de_texto"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Analizador_de_texto.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

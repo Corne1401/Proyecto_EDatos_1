@@ -7,7 +7,7 @@
 
 #include <iostream>
 #include <list>
-#include "Delimiters.h"
+
 
 using namespace std;
 
@@ -51,26 +51,6 @@ string SmartCapitalization(const string& str){
         returnString += str[i];
     }
     return returnString;
-}
-
-// Recibe una lista de delimitadores y un string, luego lee cada carcter del string y revisa si es
-// igual a un delimitador, si son diferentes agrega el caracter a holder para al final agregar la palabra entera
-// a la returnLiss y devolver la lista de pablabras
-list<string> StringCutter(const list<char>& delimiters, const string& str){
-    list<string> returnList;
-    string holder;
-    for (char c : str){
-        if(!findDelimiter(c, delimiters)){
-            holder += c;
-        }
-        else{
-            returnList.push_back(holder);
-            holder = "";
-        }
-    }
-    returnList.push_back(holder);
-    returnList.remove("");
-    return returnList;
 }
 
 

@@ -108,6 +108,24 @@
 		<Unit filename="/home/daniel/github/Datos/Projects/Proyecto_EDatos_1/Analizador_de_texto/Structures/CharList/CharNode.h">
 			<Option target="Analizador_de_texto"/>
 		</Unit>
+		<Unit filename="/home/daniel/github/Datos/Projects/Proyecto_EDatos_1/Analizador_de_texto/Structures/WordList/PositionNode.cpp">
+			<Option target="Analizador_de_texto"/>
+		</Unit>
+		<Unit filename="/home/daniel/github/Datos/Projects/Proyecto_EDatos_1/Analizador_de_texto/Structures/WordList/PositionNode.h">
+			<Option target="Analizador_de_texto"/>
+		</Unit>
+		<Unit filename="/home/daniel/github/Datos/Projects/Proyecto_EDatos_1/Analizador_de_texto/Structures/WordList/WordList.cpp">
+			<Option target="Analizador_de_texto"/>
+		</Unit>
+		<Unit filename="/home/daniel/github/Datos/Projects/Proyecto_EDatos_1/Analizador_de_texto/Structures/WordList/WordList.h">
+			<Option target="Analizador_de_texto"/>
+		</Unit>
+		<Unit filename="/home/daniel/github/Datos/Projects/Proyecto_EDatos_1/Analizador_de_texto/Structures/WordList/WordNode.cpp">
+			<Option target="Analizador_de_texto"/>
+		</Unit>
+		<Unit filename="/home/daniel/github/Datos/Projects/Proyecto_EDatos_1/Analizador_de_texto/Structures/WordList/WordNode.h">
+			<Option target="Analizador_de_texto"/>
+		</Unit>
 		<Unit filename="/home/daniel/github/Datos/Projects/Proyecto_EDatos_1/Analizador_de_texto/main.cpp">
 			<Option target="Analizador_de_texto"/>
 		</Unit>

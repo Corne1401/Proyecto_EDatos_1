@@ -2,10 +2,8 @@
 // Created by daniel on 4/7/20.
 //
 
-#include <iostream>
 #include "../../Helpers/Round.h"
 #include "CharList.h"
-
 using namespace std;
 
 // Constructor de la lista de caracteres
@@ -27,7 +25,7 @@ void CharList::insert(const string& str) {
 
         holder.push_back(character);
         if(character > 0 || holder.length() == 2){
-
+          
             switch(character){
                 case '\n':
                     holder = "'Enter'";

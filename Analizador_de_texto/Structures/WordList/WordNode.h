@@ -5,15 +5,22 @@
 #ifndef PROYECTO_EDATOS_1_NODELIST_H
 #define PROYECTO_EDATOS_1_NODELIST_H
 #include <iostream>
+#include "PositionNode.h"
 
 using namespace std;
 
-class NodeList {
+class WordNode {
 public:
-    string palabra;
-    int caracteresAnteriores, numeroDeLinea;
-    NodeList *siguiente;
-    NodeList *anterior;
+    string word;
+    int cont;
+
+    WordNode *next;
+    WordNode *prev;
+    PositionNode *nextPos;
+
+public:
+    explicit WordNode(string word);
+    ~WordNode();
 };
 
 

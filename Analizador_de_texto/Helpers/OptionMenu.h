@@ -7,12 +7,13 @@
 
 #include <iostream>
 #include "../Structures/CharList/CharList.h"
+#include "../Structures/WordList/WordList.h"
 using namespace std;
 
 
 void pause();
 
-void MostarMenu(CharList &charList){
+void MostarMenu(CharList &charList, WordList &wordList){
     bool bandera=false;
     char tecla;
 
@@ -45,13 +46,15 @@ void MostarMenu(CharList &charList){
 
             case 'b':
                 system("cls");
-                cout << "Has elejido ...\n";
+                cout << "Diccionario\n";
+                wordList.print();
                 pause();
                 break;
 
             case 'c':
                 system("cls");
-                cout << "Has elejido ...\n";
+                cout << "Diccionarion y posiciones\n";
+                wordList.printPos();
                 pause();
                 break;
 
