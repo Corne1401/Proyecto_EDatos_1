@@ -87,6 +87,9 @@
 		<Unit filename="/home/daniel/github/Datos/Projects/Proyecto_EDatos_1/Analizador_de_texto/Helpers/Delimiters.h">
 			<Option target="Analizador_de_texto"/>
 		</Unit>
+		<Unit filename="/home/daniel/github/Datos/Projects/Proyecto_EDatos_1/Analizador_de_texto/Helpers/IsPrefix.h">
+			<Option target="Analizador_de_texto"/>
+		</Unit>
 		<Unit filename="/home/daniel/github/Datos/Projects/Proyecto_EDatos_1/Analizador_de_texto/Helpers/OptionMenu.h">
 			<Option target="Analizador_de_texto"/>
 		</Unit>

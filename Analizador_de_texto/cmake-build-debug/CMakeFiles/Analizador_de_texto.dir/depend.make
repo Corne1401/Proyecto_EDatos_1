@@ -13,6 +13,7 @@ CMakeFiles/Analizador_de_texto.dir/Structures/WordList/PositionNode.cpp.o: ../St
 CMakeFiles/Analizador_de_texto.dir/Structures/WordList/PositionNode.cpp.o: ../Structures/WordList/PositionNode.h
 
 CMakeFiles/Analizador_de_texto.dir/Structures/WordList/WordList.cpp.o: ../Helpers/Delimiters.h
+CMakeFiles/Analizador_de_texto.dir/Structures/WordList/WordList.cpp.o: ../Helpers/IsPrefix.h
 CMakeFiles/Analizador_de_texto.dir/Structures/WordList/WordList.cpp.o: ../Structures/WordList/PositionNode.h
 CMakeFiles/Analizador_de_texto.dir/Structures/WordList/WordList.cpp.o: ../Structures/WordList/WordList.cpp
 CMakeFiles/Analizador_de_texto.dir/Structures/WordList/WordList.cpp.o: ../Structures/WordList/WordList.h

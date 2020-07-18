@@ -17,12 +17,18 @@ public:
     WordNode *fistNode;
     WordNode *lastNode;
     int length;
+    int delimCount;
+    int wordCount;
+    int comparisionCount;
 public:
     WordList();
     void insert(const string& str,const list<string>& delimiters, int line);
-    bool incrementSearch(const string& word, PositionNode *newPos) const;
+    bool incrementSearch(const string& word, PositionNode *newPos);
     void print() const;
     void printPos() const;
+    void searchWord(const string& str) const;
+    void searchPrefix(const string& prefix) const;
+    unsigned long memSize() const;
 
     };
 

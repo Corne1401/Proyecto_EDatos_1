@@ -5,11 +5,15 @@
 
 #include "WordList.h"
 #include "../../Helpers/Delimiters.h"
+#include "../../Helpers/IsPrefix.h"
 
 WordList::WordList() {
     this->fistNode = nullptr;
     this->lastNode = nullptr;
     this->length = 0;
+    this->delimCount = 0;
+    this->wordCount = 0;
+    this->comparisionCount = 0;
 }
 
 //TODO insertar caracteres previos desde el primer caracter de la palabra y no el ultimo
@@ -22,6 +26,10 @@ void WordList::insert(const string& str, const list<string>& delimiters , int li
         holder.push_back(character);
 
         if(character > 0 || holder.length() == 2){
+
+            if(findDelimiter(holder,delimiters)){
+                this->delimCount++;
+            }
 
             if(!findDelimiter(holder,delimiters)){
                 word += holder;
@@ -45,6 +53,9 @@ void WordList::insert(const string& str, const list<string>& delimiters , int li
 
                 if (this->fistNode == nullptr){
 
+                    this->length++;
+                    this->wordCount++;
+
                     this->fistNode = newNode;
                     this->lastNode = newNode;
                     newNode->nextPos = newPos;
@@ -54,9 +65,14 @@ void WordList::insert(const string& str, const list<string>& delimiters , int li
                     if(incrementSearch(word, newPos)){
                         word = "";
                         holder = "";
+                        this->wordCount++;
                         continue;
                     }
                     else{
+
+                        this->length++;
+                        this->wordCount++;
+
                         newNode->nextPos = newPos;
                         this->lastNode->next = newNode;
                         newNode->prev = this->lastNode;
@@ -81,9 +97,14 @@ void WordList::insert(const string& str, const list<string>& delimiters , int li
         if(incrementSearch(word, newPos)){
             word = "";
             holder = "";
+            this->wordCount++;
         }
 
         else{
+
+            this->length++;
+            this->wordCount++;
+
             newNode->nextPos = newPos;
             this->lastNode->next = newNode;
             newNode->prev = this->lastNode;
@@ -94,16 +115,18 @@ void WordList::insert(const string& str, const list<string>& delimiters , int li
 
 }
 
-bool WordList::incrementSearch(const string& word, PositionNode *newPos) const {
+bool WordList::incrementSearch(const string& word, PositionNode *newPos) {
 
     auto *aux = this->fistNode;
     while(aux != this->lastNode){
         if(word == aux->word){
+            this->comparisionCount++;
             aux->cont++;
             if(aux->nextPos == nullptr){
                 aux->nextPos = newPos;
             }
             else{
+                this->comparisionCount++;
                 auto *posAux = aux->nextPos;
                 while(posAux != nullptr){
                     if(posAux->next == nullptr){
@@ -119,11 +142,13 @@ bool WordList::incrementSearch(const string& word, PositionNode *newPos) const {
         aux = aux->next;
     }
     if(word == aux->word){
+        this->comparisionCount++;
         aux->cont++;
         if(aux->nextPos == nullptr){
             aux->nextPos = newPos;
         }
         else{
+            this->comparisionCount++;
             auto *posAux = aux->nextPos;
             while(posAux != nullptr){
                 if(posAux->next == nullptr){
@@ -172,5 +197,74 @@ void WordList::printPos() const {
         cout << "Previous Chars: " << auxPos->pervChars << "| Line: " << auxPos->lineNum << endl;
         auxPos = auxPos->next;
     }
+
+}
+
+void WordList::searchWord(const string& str) const {
+    auto *aux = this->fistNode;
+    while(aux != this->lastNode){
+        if(aux->word == str){
+            cout << "Palabra: " << aux->word << endl;
+
+            auto *posAux = aux->nextPos;
+            while(posAux != nullptr){
+                cout << "Previous Chars: " << posAux->pervChars << "| Line: " << posAux->lineNum << endl;
+                posAux = posAux->next;
+            }
+
+        }
+        aux = aux->next;
+    }
+    if(aux->word == str){
+        cout << "Palabra: " << aux->word << " | ";
+
+        auto *posAux = aux->nextPos;
+        while(posAux != nullptr){
+            cout << "Previous Chars: " << posAux->pervChars << "| Line: " << posAux->lineNum << endl;
+            posAux = posAux->next;
+        }
+
+    }
+}
+
+void WordList::searchPrefix(const string& prefix) const {
+    auto *aux = this->fistNode;
+
+    while(aux != this->lastNode){
+
+        if(isPrefix(prefix,aux->word)){
+            cout << aux->word << endl;
+        }
+
+        aux = aux->next;
+    }
+
+    if(isPrefix(prefix,aux->word)){
+        cout << aux->word << endl;
+    }
+}
+
+unsigned long WordList::memSize() const {
+    unsigned long total = 0;
+    auto *aux = this->fistNode;
+    while(aux != this->lastNode){
+        total += (aux->word.length()+1) + 28;
+
+        auto *posAux = aux->nextPos;
+        while(posAux != nullptr){
+            total += 16;
+            posAux = posAux->next;
+        }
+
+        aux = aux->next;
+    }
+    total += (aux->word.length()+1) + 28;
+    auto *posAux = aux->nextPos;
+    while(posAux != nullptr){
+        total += 16;
+        posAux = posAux->next;
+    }
+
+    return total;
 
 }
