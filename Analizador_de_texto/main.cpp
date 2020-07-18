@@ -1,5 +1,6 @@
 #include <iostream>
 #include <fstream>
+#include <ctime>
 #include "Helpers/OptionMenu.h"
 #include "Helpers/StringUtils.h"
 #include "Structures/CharList/CharList.h"
@@ -13,15 +14,19 @@ int main() {
     //Parte final del main NO BORRAR//
 
     //ESTRUCTURAS//
-
-    //<WordList enlazada de caracteres (Punto A)>//
     CharList charList;
     WordList wordList;
 
     //DELIMITERS//
     list<string> delimiters = {" ", ".", ",", "?", "!", "\n"};
 
+    //TIME//
+    unsigned t1 = 0;
+    unsigned t2 = 0;
+    double execTime = 0;
 
+    //VARIABLES//
+    unsigned long fileSize = 0;
     int comparaciones = 0;
 
     //MENU//
@@ -37,6 +42,7 @@ int main() {
         cout << "Escriba el nombre del archivo a procesar" << endl;
         cin >> fileName;
         ifstream processFile("../InputFile/"+fileName+".txt");
+        fileSize = sizeof(processFile);
 
         if(processFile.is_open()){
 
@@ -49,6 +55,7 @@ int main() {
 
             if(tolower(capitalization) == 'y'){
                 int lineNum = 1;
+                t1 = clock();
                 while(getline(processFile,line)){
                     //Se agrega el salto de linea porque getline() lo elimina
                     line += "\n";
@@ -59,9 +66,11 @@ int main() {
                     lineNum++;
 
                 }
+                t2 = clock();
             }
             else if(tolower(capitalization) == 'n'){
                 int lineNum = 1;
+                t1 = clock();
                 while(getline(processFile,line)){
                     //Se agrega el salto de linea porque getline() lo elimina
                     line += "\n";
@@ -71,6 +80,7 @@ int main() {
                     wordList.insert(line, delimiters, lineNum);
                     lineNum++;
                 }
+                t2 = clock();
             }
             else cout << "Opcion no valida" << endl;
 
@@ -85,6 +95,7 @@ int main() {
         string stdInput;
         cout << "Ingrese el texto que desea procesar" << endl;
         getline(cin, stdInput);
+        fileSize = stdInput.size()+1;
 
         char capitalization;
         cout << "Desea procesar las mayusculas? [y/n]" << endl;
@@ -93,20 +104,33 @@ int main() {
         if(tolower(capitalization) == 'y'){
 
             // Se procesan las lineas de la entrada para meterlas en las estrucuras
+            t1 = clock();
             charList.insert(stdInput);
+            wordList.insert(stdInput, delimiters, 1);
+            t2 = clock();
 
         }
         else if (tolower(capitalization) == 'n'){
 
             // Se procesan las lineas de la entrada para meterlas en las estrucuras
+            t1 = clock();
             charList.insert(ToLowerString(stdInput));
+            wordList.insert(ToLowerString(stdInput), delimiters, 1);
+            t2 = clock();
 
         }
 
     }
     else cout << "opcion no valida" << endl;
 
-    MostarMenu(charList, wordList);
+    execTime = (double (t2-t1)/CLOCKS_PER_SEC);
+
+
+
+
+
+
+    MostarMenu(charList, wordList, execTime, fileSize);
 
 
 

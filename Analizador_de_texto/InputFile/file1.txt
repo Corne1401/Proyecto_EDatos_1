@@ -1,6 +1,26 @@
-sunt vel!
-Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-Aliquam consequatur cum fugit minima officiis perferendis
-provident reprehenderit,
-excepturi fugiat
-id laborum maiores nam possimus provident similique ut ut.
+C. Su programa deberá realizar un análisis de la cantidad de operaciones
+ejecutadas, y tiempos de ejecución.
+1. Su programa deberá llevar un control de la cantidad de datos procesados.
+2. Deberá indicar la cantidad total de caracteres leídos, la cantidad que
+corresponde a palabras o tokens válidos y la cantidad correspondiente a
+delimitadores.
+3. Así mismo, deberá indicar la cantidad de palabras reconocidas y cuántas de
+esas son únicas, esto debe corresponder con la cantidad de entradas en el
+diccionario.
+4. Deberá contabilizar y reportar la cantidad de lecturas que se hacen a memoria.
+5. Deberá contabilizar y reportar la cantidad de comparaciones que se hacen para
+localizar los datos en el diccionario.
+6. Indique en cada corrida la cantidad de memoria usada tanto para los datos de
+entrada como para sus estructuras de datos creadas.
+7. Tome y reporte los tiempos de ejecución de las operaciones realizadas.
+8. Realice varias pruebas para que acumule datos de ejecución con varios tipos
+de entrada, de forma tal que pueda realizar un análisis sobre el costo
+computacional de su programa y la relación con el tiempo de ejecución según
+los datos de entrada. Para brindar estos resultados podrá hacer uso de
+herramientas para generar gráficos que permitan comparar los datos y los
+incluya en su documentación para su análisis.
+9. Brinde en su documentación un análisis sobre el costo y duración de su
+programa en relación con el tamaño de la entrada. Muestre datos de varias
+corridas como se pide en el punto C.6 y explique su análisis según los datos
+obtenidos. ¿Cuánto costo adicional representa el distinguir mayúsculas de
+minúsculas?

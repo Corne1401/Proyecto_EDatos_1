@@ -22,6 +22,7 @@ public:
     void print() const;
     static void swap (CharNode *a, CharNode *b);
     static void bubbleSort(CharNode *start);
+    unsigned long memSize();
 
 };
 

@@ -13,9 +13,11 @@ using namespace std;
 
 void pause();
 
-void MostarMenu(CharList &charList, WordList &wordList){
+void MostarMenu(CharList &charList, WordList &wordList, double &execTime, unsigned long &fileSize){
     bool bandera=false;
     char tecla;
+    string word;
+    string prefix;
 
     do
     {
@@ -60,19 +62,40 @@ void MostarMenu(CharList &charList, WordList &wordList){
 
             case 'd':
                 system("cls");
-                cout << "Has elejido ...\n";
+                cout << "Buscar palabra\n";
+                cin.ignore();
+
+
+                getline(cin,word);
+                wordList.searchWord(word);
+
                 pause();
                 break;
 
             case 'e':
-            system("cls");
-            cout << "Has elejido ...\n";
-            pause();
-            break;
+                system("cls");
+                cout << "Buscar prefijo\n";
+                cin.ignore();
+
+                getline(cin,prefix);
+                wordList.searchPrefix(prefix);
+
+                pause();
+                break;
 
             case 'f':
                 system("cls");
-                cout << "Has elejido ...\n";
+                cout << "Estadisticas\n";
+
+                cout << "Caracteres totales: " << charList.charTotal << endl;
+                cout << "Delimitadores totales: " << wordList.delimCount << endl;
+                cout << "Palabras totales: " << wordList.wordCount << endl;
+                cout << "Palabras unicas totales: " << wordList.length << endl;
+                cout << "Cantidad de comparaciones en diccionario: " << wordList.comparisionCount << endl;
+                cout << "Tamaño de las estructuras: " << wordList.memSize() + charList.memSize() << " bytes" <<endl;
+                cout << "Tamaño de los datos de entrada: " << fileSize << "bytes" << endl;
+                cout << "Tiempo de ejecucion: " << execTime << endl;
+
                 pause();
                 break;
 

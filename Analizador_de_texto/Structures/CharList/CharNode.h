@@ -11,9 +11,9 @@ using namespace std;
 class CharNode {
 public:
     string character;
+    float counter;
     CharNode *next;
     CharNode *last;
-    float counter;
 public:
     explicit CharNode(string character);
 };
