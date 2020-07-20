@@ -135,7 +135,7 @@ int main() {
 
 
     // Pruebas //
-//    string prueba = "Hola. mi nombre és daniel? corne es mi referencia";
+//    string prueba = "Hola. mi nombre és x? corne es mi referencia";
 //
 //
 //    wordList.insert(prueba, delimiters, 1);

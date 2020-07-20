@@ -34,13 +34,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dfaa8b2d-55a3-4d3f-a275-72028defc367" name="Default Changelist" comment="Comentarios Helpers">
-      <change beforePath="$PROJECT_DIR$/.idea/Proyecto_EDatos_1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Proyecto_EDatos_1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Analizador_de_texto/Helpers/Round.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Analizador_de_texto/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Analizador_de_texto/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-    </list>
+    <list default="true" id="dfaa8b2d-55a3-4d3f-a275-72028defc367" name="Default Changelist" comment="." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,6 +71,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunManager">
     <configuration name="Analizador_de_texto" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" RUN_PATH="$PROJECT_DIR$/Analizador_de_texto/cmake-build-debug/Analizador_de_texto" EXPLICIT_BUILD_TARGET_NAME="all">
@@ -108,7 +103,7 @@
       <workItem from="1594421201806" duration="1278000" />
       <workItem from="1594680189497" duration="16494000" />
       <workItem from="1594847141236" duration="19004000" />
-      <workItem from="1595149025943" duration="22570000" />
+      <workItem from="1595149025943" duration="23168000" />
     </task>
     <task id="LOCAL-00001" summary="Menú de opciones&#10;&#10;Opciónes definidas 0">
       <created>1594089685757</created>
@@ -152,7 +147,35 @@
       <option name="project" value="LOCAL" />
       <updated>1594257869130</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Comentarios Helpers">
+      <created>1595251842381</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1595251842381</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Comentarios Structures\CharList">
+      <created>1595251903589</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1595251903589</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Comentarios Structures\WordList">
+      <created>1595251935915</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1595251935915</updated>
+    </task>
+    <task id="LOCAL-00010" summary=".">
+      <created>1595251961700</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1595251961700</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,7 +211,10 @@
     <MESSAGE value="Error de sintaxis" />
     <MESSAGE value="Class trie tree" />
     <MESSAGE value="Comentarios Helpers" />
-    <option name="LAST_COMMIT_MESSAGE" value="Comentarios Helpers" />
+    <MESSAGE value="Comentarios Structures\CharList" />
+    <MESSAGE value="Comentarios Structures\WordList" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
   <component name="WindowStateProjectService">
     <state x="122" y="0" width="1084" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595168443669">
@@ -225,6 +251,10 @@
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="350" y="160" width="728" height="482" key="MultipleFileMergeDialog/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1594093843393" />
+    <state x="184" y="0" key="SettingsEditor" timestamp="1595251792268">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1595251792268" />
     <state x="255" y="104" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1595251359554">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
