@@ -8,6 +8,10 @@
 #include <iostream>
 using namespace std;
 
+/**
+ * @brief Estructura auxiliar de la extructura "CharList" y de sí misma.
+ */
+
 class CharNode {
 public:
     string character;

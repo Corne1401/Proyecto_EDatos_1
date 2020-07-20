@@ -1,3 +1,5 @@
+
+
 //
 // Created by daniel on 4/7/20.
 //
@@ -8,6 +10,10 @@
 #include <iostream>
 #include "CharNode.h"
 using namespace std;
+
+/**
+ * @brief Estructura para almacenar estructuras y datos de la clase "CharNode".
+ */
 
 class CharList {
 public:

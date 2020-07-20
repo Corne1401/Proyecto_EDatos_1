@@ -4,6 +4,11 @@
 
 #include "CharNode.h"
 
+/**
+ *
+ * @param character
+ */
+
 CharNode::CharNode(string character) {
     this->character = character;
     this->next = nullptr;

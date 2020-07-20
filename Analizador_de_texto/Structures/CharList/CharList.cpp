@@ -1,3 +1,6 @@
+
+
+
 //
 // Created by daniel on 4/7/20.
 //
@@ -6,17 +9,21 @@
 #include "CharList.h"
 using namespace std;
 
-// Constructor de la lista de caracteres
+/**
+ * @brief Constructor de la lista de caracteres
+ */
+
 CharList::CharList() {
     this->charTotal = 0;
     this->first = nullptr;
     this->last = nullptr;
 }
 
-
-// Inserta un nuevo caracter en la lista doblemente enlazada
-// para los caracteres UTF-8 hace 2 vueltas ya que con solo una
-// no se definen en los strings
+/**
+ *
+ * @param str Caracter.
+ * @brief Inserta un nuevo caracter en la estructura "CharList" para los caracteres.
+ */
 
 void CharList::insert(const string& str) {
     string holder;
@@ -68,7 +75,12 @@ void CharList::insert(const string& str) {
     }
 }
 
-//Aumenta el contador de un caracter si existe en la lista
+/**
+ *
+ * @param character
+ * @return Aumento en el contador de un caracter si solo si existe en la Estructura "CharList".  ¿True/False?
+ */
+
 bool CharList::incrementSearch(const string& character) const {
     auto *aux = this->first;
     while (aux != this->last) {
@@ -85,7 +97,10 @@ bool CharList::incrementSearch(const string& character) const {
     return false;
 }
 
-// Hace un histograma con los porcentajes de apaicion de cada caracter en la lista
+/**
+ * @brief Histograma con los porcentajes de aparicion de cada caracter en la estructura "CharList".
+ */
+
 void CharList::graph() const {
 
     auto *aux = this->first;
@@ -110,7 +125,10 @@ void CharList::graph() const {
     cout << endl;
 }
 
-// Imprime el contenido de la lista enlazada
+/**
+ * @return imprime el contenido de la Estructura CharList
+ */
+
 void CharList::print() const {
     CharList::bubbleSort(this->first);
     auto *aux = this->first;
@@ -121,7 +139,12 @@ void CharList::print() const {
     cout << "Char: " << aux->character << " Count: " << aux->counter << endl;
 }
 
-// Ordena la lista
+/**
+ *
+ * @param start Primer Nodo
+ * @return Ordenamiento en la estructura "CharList".
+ */
+
 void CharList::bubbleSort(CharNode *start) {
     int swapped, i;
     CharNode *ptr1;
@@ -150,7 +173,15 @@ void CharList::bubbleSort(CharNode *start) {
     while (swapped);
 }
 
-// Intercambia los datos de dos elementos de la lista para asi evitar cambiar los punteros
+/**
+ *
+ * @param caracter Nodo a
+ * @param caracter Nodo b
+ *@brief Intercambio de datos de dos elementos en la estructura "CharList".
+ *
+ * @return Evitar el intercambio de punteros.
+ */
+
 void CharList::swap(CharNode *a, CharNode *b) {
     float tempC = a->counter;
     string tempS = a->character;
