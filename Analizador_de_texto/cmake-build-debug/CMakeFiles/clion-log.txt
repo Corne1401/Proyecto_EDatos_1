@@ -1,4 +1,1 @@
-/home/daniel/Programs/Clion/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/daniel/github/Datos/Projects/Proyecto_EDatos_1/Analizador_de_texto
--- Configuring done
--- Generating done
--- Build files have been written to: /home/daniel/github/Datos/Projects/Proyecto_EDatos_1/Analizador_de_texto/cmake-build-debug
+Toolchains are not configured Configure
