@@ -9,7 +9,13 @@
 #include <list>
 using namespace std;
 
-//Funcion que encuentra delimitadores en una lista
+/**
+ *
+ * @param delimiter Delimitador deseado.
+ * @param delimiters Lista de limitadores.
+ * @return Encuentro de delimitadores en una lista.
+ */
+
 bool findDelimiter(const string& delimiter, const list<string>& delimiters){
     for(const string& c : delimiters){
         if(c == delimiter) return true;

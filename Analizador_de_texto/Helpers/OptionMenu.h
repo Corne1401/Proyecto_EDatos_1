@@ -13,6 +13,22 @@ using namespace std;
 
 void pause();
 
+/**
+ *
+ * @param charList
+ * @param wordList
+ * @param execTime
+ * @param fileSize
+ * @return Mostrará al usuario un menú de opciones:
+ * a. brindará el Histograma de la parte A del programa.
+ * b. brindará la lista ordenada de todo el diccionario de palabras y los valores asociados con la cantidad de cada una.
+ * c. presentara las ubicaciones(# de línea y posición absoluta) de todas las ocurrencias de las palabras del diccionario.
+ * d. Consultará al usuario por una palabra o token en particular
+ * e. Permitirá buscar palabras o tokens que inicien con un prefijo que el usuario indique.
+ * f .Mostrará de forma clara la cantidad de tiempo en la duro la ejecución con dichas operaciónes
+ * g. Fin del programa.
+ */
+
 void MostarMenu(CharList &charList, WordList &wordList, double &execTime, unsigned long &fileSize){
     bool bandera=false;
     char tecla;

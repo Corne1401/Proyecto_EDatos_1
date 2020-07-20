@@ -9,7 +9,12 @@
 using namespace std;
 
 
-// Funcion para redondear floats a dos decimales
+
+/**
+ *
+ * @param var Numero a evaluar.
+ * @return Redondear floats a dos decimales.
+ */
 
 float round(float var){
     float value = (int) (var * 100 + 0.5);

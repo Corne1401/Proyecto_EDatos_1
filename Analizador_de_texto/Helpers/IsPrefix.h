@@ -8,6 +8,13 @@
 #include <iostream>
 using namespace std;
 
+/**
+ *
+ * @param prefix prefijo a buscar.
+ * @param word Palabra a evaluar.
+ * @return Es prefijo de la palabra ¿True/False?.
+ */
+
 bool isPrefix(string prefix, string word){
     return mismatch(prefix.begin(),prefix.end(),word.begin(),word.end()).first == prefix.end();
 }

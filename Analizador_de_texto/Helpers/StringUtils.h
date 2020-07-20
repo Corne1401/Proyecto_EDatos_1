@@ -10,17 +10,26 @@
 
 
 using namespace std;
+/**
+ *
+ * @param str Procesa una string.
+ * @return La devuelve en mayusculas.
+ */
 
-// Procesa una string y la devuelve en mayusculas
 string ToUpperString(const string& str){
     string returnString;
-    for (auto c : str){
+    for ( c : str){
         returnString += toupper(c);
     }
     return returnString;
 }
 
-// Procesa una string y la devuelve en mayusculas minusculas
+/**
+ *
+ * @param str Palabra a procesar.
+ * @return //  Mayusculas a minusculas.
+ */
+
 string ToLowerString(const string& str){
     string returnString;
     for(auto c : str){
@@ -29,7 +38,12 @@ string ToLowerString(const string& str){
     return returnString;
 }
 
-// Procesa una string y la devuelve con mayusculas despues de un punto o salto de linea
+/**
+ *
+ * @param str Palabra a procesar.
+ * @return // Mayusculas despues de un punto o salto de linea.
+ */
+
 string SmartCapitalization(const string& str){
     string returnString;
     char buffer = '\0';
