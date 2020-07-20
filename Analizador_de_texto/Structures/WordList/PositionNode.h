@@ -5,6 +5,9 @@
 #ifndef ANALIZADOR_DE_TEXTO_POSITIONNODE_H
 #define ANALIZADOR_DE_TEXTO_POSITIONNODE_H
 
+/**
+ * @brief Estructura auxiliar de la extructura "WordNode" y de sí misma.
+ */
 
 class PositionNode {
 public:

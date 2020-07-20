@@ -7,6 +7,10 @@
 #include "../../Helpers/Delimiters.h"
 #include "../../Helpers/IsPrefix.h"
 
+/**
+ * @brief constructor
+ */
+
 WordList::WordList() {
     this->fistNode = nullptr;
     this->lastNode = nullptr;
@@ -16,8 +20,19 @@ WordList::WordList() {
     this->comparisionCount = 0;
 }
 
-//TODO insertar caracteres previos desde el primer caracter de la palabra y no el ultimo
+/**
+ *
+ * @param str Nodo a insertar
+ * @param delimiters lista de delimitadores
+ * @param line Numero de línea en caso de estar leyendo un archivo
+ */
 
+// TODO insertar caracteres previos desde el primer caracter de la palabra y no el ultimo
+// Inserta un nuevo nuevo nodos a la lista, recibe una cadena y divide en palabras
+// una lista de delimitadores y el número de línea en caso de estar leyendo un archivo
+// cuenta cuantos caracteres totales hay antes de la palabra a insertar para crear un nuevo
+// nodo de posicionamiento y agregado a cada nodo de palabra, si la palabra ya existe la busca
+// en la lista y agrega el nuevo nodo de posicionamiento
 void WordList::insert(const string& str, const list<string>& delimiters , int line) {
     string holder;
     string word;
@@ -115,6 +130,13 @@ void WordList::insert(const string& str, const list<string>& delimiters , int li
 
 }
 
+/**
+ * @brief Busca palabra en la lista para aumentar su contador y agregarle un nuevo nodo de posicionamiento.
+ * @param word Palabra a buscar
+ * @param newPos Nueva posicionamiento
+ * @return Buscar palabra en la lista ¿True/False?
+ */
+
 bool WordList::incrementSearch(const string& word, PositionNode *newPos) {
 
     auto *aux = this->fistNode;
@@ -174,6 +196,10 @@ void WordList::print() const {
 
 }
 
+/**
+ * @brief Grabar la lista imprimendo las palabras y las posiciones en las que se encuentran.
+ */
+
 void WordList::printPos() const {
     auto *aux = this->fistNode;
 
@@ -199,6 +225,12 @@ void WordList::printPos() const {
     }
 
 }
+
+/**
+ *
+ * @param str Palabra a buscar
+ * @return Posiciones en el documento leido
+ */
 
 void WordList::searchWord(const string& str) const {
     auto *aux = this->fistNode;
@@ -227,6 +259,14 @@ void WordList::searchWord(const string& str) const {
     }
 }
 
+
+/**
+ *
+ * @param prefix Prefijo a buscar.
+ *
+ * @brief Busca todas las palabras con prefijos iguales al buscado.
+ */
+
 void WordList::searchPrefix(const string& prefix) const {
     auto *aux = this->fistNode;
 
@@ -243,6 +283,12 @@ void WordList::searchPrefix(const string& prefix) const {
         cout << aux->word << endl;
     }
 }
+
+
+/**
+ *
+ * @return  Tamaño total de la estructura en bytes
+ */
 
 unsigned long WordList::memSize() const {
     unsigned long total = 0;

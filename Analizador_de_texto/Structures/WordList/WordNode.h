@@ -9,6 +9,10 @@
 
 using namespace std;
 
+/**
+ * @brief Estructura auxiliar de la extructura "WordList" y de sí misma.
+ */
+
 class WordNode {
 public:
     string word;

@@ -21,7 +21,7 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:origin/YordanS" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
@@ -34,15 +34,12 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dfaa8b2d-55a3-4d3f-a275-72028defc367" name="Default Changelist" comment="Class trie tree">
-      <change afterPath="$PROJECT_DIR$/Analizador_de_texto/Structures/Lista/DoublyList.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Analizador_de_texto/Structures/Lista/DoublyList.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Analizador_de_texto/Structures/Lista/NodeList.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Analizador_de_texto/Structures/Lista/NodeList.h" afterDir="false" />
+    <list default="true" id="dfaa8b2d-55a3-4d3f-a275-72028defc367" name="Default Changelist" comment="Comentarios Helpers">
+      <change beforePath="$PROJECT_DIR$/.idea/Proyecto_EDatos_1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Proyecto_EDatos_1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Analizador_de_texto/Structures/Trie/Trie.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Analizador_de_texto/Structures/Trie/Trie.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Analizador_de_texto/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Analizador_de_texto/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analizador_de_texto/Helpers/Round.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analizador_de_texto/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Analizador_de_texto/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +52,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="YordanS" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -72,7 +69,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Analizador_de_texto/cmake-build-debug/Analizador_de_texto" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Analizador_de_texto/cmake-build-debug/cmake_install.cmake" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -92,13 +89,8 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -116,6 +108,7 @@
       <workItem from="1594421201806" duration="1278000" />
       <workItem from="1594680189497" duration="16494000" />
       <workItem from="1594847141236" duration="19004000" />
+      <workItem from="1595149025943" duration="22570000" />
     </task>
     <task id="LOCAL-00001" summary="Menú de opciones&#10;&#10;Opciónes definidas 0">
       <created>1594089685757</created>
@@ -163,7 +156,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -176,7 +169,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/YordanS" />
+                        <option value="origin/master" />
                       </list>
                     </value>
                   </entry>
@@ -194,45 +187,58 @@
     <MESSAGE value="Menú de opciones&#10;&#10;Opciónes definidas 0" />
     <MESSAGE value="Error de sintaxis" />
     <MESSAGE value="Class trie tree" />
-    <option name="LAST_COMMIT_MESSAGE" value="Class trie tree" />
+    <MESSAGE value="Comentarios Helpers" />
+    <option name="LAST_COMMIT_MESSAGE" value="Comentarios Helpers" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="188" y="32" width="1084" height="736" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594877242373">
-      <screen x="72" y="27" width="1294" height="741" />
+    <state x="122" y="0" width="1084" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595168443669">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="122" y="0" width="1084" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1595168443669" />
+    <state x="1488" y="4" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1595149148735" />
     <state x="188" y="32" width="1084" height="736" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1594877242373" />
+    <state x="424" y="164" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595168477526">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="424" y="164" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1595168477526" />
     <state x="452" y="146" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1594256797607">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="452" y="146" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1594256797607" />
-    <state x="564" y="216" width="379" height="417" key="FileChooserDialogImpl" timestamp="1594256454271">
-      <screen x="72" y="27" width="1294" height="741" />
+    <state x="519" y="186" width="379" height="417" key="FileChooserDialogImpl" timestamp="1595250911995">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="519" y="186" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1595250911995" />
+    <state x="1885" y="186" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1595149105391" />
     <state x="771" y="296" width="424" height="513" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1593899161951" />
     <state x="564" y="216" width="379" height="417" key="FileChooserDialogImpl/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1594256454271" />
     <state x="302" y="143" width="824" height="515" key="IDE.errors.dialog" timestamp="1594680655105">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="302" y="143" width="824" height="515" key="IDE.errors.dialog/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1594680655105" />
-    <state x="192" y="90" width="1035" height="629" key="MergeDialog" timestamp="1594093843390">
-      <screen x="72" y="27" width="1294" height="741" />
+    <state x="127" y="62" width="1035" height="629" key="MergeDialog" timestamp="1595250789123">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="127" y="62" key="MergeDialog/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1595250789123" />
     <state x="192" y="90" width="1035" height="629" key="MergeDialog/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1594093843390" />
     <state x="350" y="160" width="728" height="482" key="MultipleFileMergeDialog" timestamp="1594093843393">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="350" y="160" width="728" height="482" key="MultipleFileMergeDialog/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1594093843393" />
-    <state x="314" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1594257956822">
-      <screen x="72" y="27" width="1294" height="741" />
+    <state x="255" y="104" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1595251359554">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="255" y="104" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1595251359554" />
     <state x="314" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1594257956822" />
-    <state x="500" y="312" width="438" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594680610495">
-      <screen x="72" y="27" width="1294" height="741" />
+    <state x="452" y="280" width="463" height="175" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595250588163">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="452" y="280" width="463" height="175" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1595250588163" />
     <state x="500" y="312" width="438" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1594680610495" />
-    <state x="391" y="91" width="645" height="619" key="git4idea.branch.GitSmartOperationDialog" timestamp="1594168357394">
-      <screen x="72" y="27" width="1294" height="741" />
+    <state x="337" y="63" width="645" height="619" key="git4idea.branch.GitSmartOperationDialog" timestamp="1595250758355">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="337" y="63" key="git4idea.branch.GitSmartOperationDialog/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1595250758355" />
     <state x="391" y="91" width="645" height="619" key="git4idea.branch.GitSmartOperationDialog/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1594168357394" />
     <state x="383" y="174" key="run.anything.popup" timestamp="1594172058788">
       <screen x="72" y="27" width="1294" height="741" />

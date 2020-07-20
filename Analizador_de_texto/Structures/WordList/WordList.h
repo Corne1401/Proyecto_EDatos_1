@@ -11,7 +11,6 @@
 
 
 
-
 class WordList{
 public:
     WordNode *fistNode;

@@ -6,6 +6,10 @@
 
 #include <utility>
 
+/**
+ *
+ * @param word
+ */
 
 WordNode::WordNode(string word) {
     this->word = std::move(word);
