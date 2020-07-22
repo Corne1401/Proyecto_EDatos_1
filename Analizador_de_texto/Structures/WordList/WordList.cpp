@@ -106,9 +106,21 @@ void WordList::insert(const string& str, const list<string>& delimiters , int li
 
     }
     if(!word.empty()){
+
         auto newNode = new WordNode(word);
         auto newPos = new PositionNode(prevChars, line);
 
+        if (this->fistNode == nullptr){
+
+            this->length++;
+            this->wordCount++;
+
+            this->fistNode = newNode;
+            this->lastNode = newNode;
+            newNode->nextPos = newPos;
+            return;
+
+        }
         if(incrementSearch(word, newPos)){
             word = "";
             holder = "";
@@ -294,7 +306,7 @@ unsigned long WordList::memSize() const {
     unsigned long total = 0;
     auto *aux = this->fistNode;
     while(aux != this->lastNode){
-        total += (aux->word.length()+1) + 28;
+        total += (aux->word.length()+1) + 32;
 
         auto *posAux = aux->nextPos;
         while(posAux != nullptr){
@@ -304,7 +316,7 @@ unsigned long WordList::memSize() const {
 
         aux = aux->next;
     }
-    total += (aux->word.length()+1) + 28;
+    total += (aux->word.length()+1) + 32;
     auto *posAux = aux->nextPos;
     while(posAux != nullptr){
         total += 16;

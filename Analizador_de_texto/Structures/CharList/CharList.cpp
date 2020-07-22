@@ -193,14 +193,14 @@ void CharList::swap(CharNode *a, CharNode *b) {
     b->character = tempS;
 }
 
-unsigned long CharList::memSize() {
+unsigned long CharList::memSize() const {
     unsigned long total = 0;
     auto *aux = this->first;
     while(aux != this->last){
-        total += (aux->character.length()+1) + 20;
+        total += (aux->character.length()+1) + 24;
         aux = aux->next;
     }
-    total += (aux->character.length()+1) + 20;
+    total += (aux->character.length()+1) + 24;
     return total;
 }
 
