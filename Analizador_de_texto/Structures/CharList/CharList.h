@@ -14,6 +14,7 @@ public:
     CharNode *first;
     CharNode *last;
     float charTotal;
+    int memAccess;
 public:
     CharList();
     void insert(const string& character);
@@ -22,7 +23,7 @@ public:
     void print() const;
     static void swap (CharNode *a, CharNode *b);
     static void bubbleSort(CharNode *start);
-    unsigned long memSize();
+    unsigned long memSize() const;
 
 };
 

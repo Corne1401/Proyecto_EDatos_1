@@ -20,6 +20,7 @@ public:
     int delimCount;
     int wordCount;
     int comparisionCount;
+    int memAccess;
 public:
     WordList();
     void insert(const string& str,const list<string>& delimiters, int line);
